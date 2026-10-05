@@ -11,7 +11,7 @@ class Studente:
 
     # COSTRUTTORE: funzione standard per inizializzare l'oggetto
     def __init__(self, matricola, nome, cognome):
-        self.matricola = matricola
+        self.matricola = matricola # self significa questo oggetto
         self.nome = nome
         self.cognome = cognome
 
